@@ -38,6 +38,9 @@ export default class Shape {
     areas(): number[]
     area(index: number): number
     totalArea(): number
+    perimeter(index: number): number
+    perimeters(): number[]
+    totalPerimeter(): number
     reverse(): this
     tresholdArea(minArea: number): void // spelling included
 
